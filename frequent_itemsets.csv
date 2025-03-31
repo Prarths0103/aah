@@ -1,0 +1,32 @@
+support,itemsets
+1.0,frozenset({'Age'})
+1.0,frozenset({'Income'})
+1.0,frozenset({'SpendingScore'})
+1.0,frozenset({'Height'})
+1.0,frozenset({'Weight'})
+1.0,"frozenset({'Age', 'Income'})"
+1.0,"frozenset({'Age', 'SpendingScore'})"
+1.0,"frozenset({'Age', 'Height'})"
+1.0,"frozenset({'Age', 'Weight'})"
+1.0,"frozenset({'SpendingScore', 'Income'})"
+1.0,"frozenset({'Income', 'Height'})"
+1.0,"frozenset({'Weight', 'Income'})"
+1.0,"frozenset({'SpendingScore', 'Height'})"
+1.0,"frozenset({'Weight', 'SpendingScore'})"
+1.0,"frozenset({'Weight', 'Height'})"
+1.0,"frozenset({'Age', 'SpendingScore', 'Income'})"
+1.0,"frozenset({'Age', 'Income', 'Height'})"
+1.0,"frozenset({'Age', 'Weight', 'Income'})"
+1.0,"frozenset({'Age', 'SpendingScore', 'Height'})"
+1.0,"frozenset({'Age', 'Weight', 'SpendingScore'})"
+1.0,"frozenset({'Age', 'Weight', 'Height'})"
+1.0,"frozenset({'SpendingScore', 'Income', 'Height'})"
+1.0,"frozenset({'SpendingScore', 'Income', 'Weight'})"
+1.0,"frozenset({'Weight', 'Income', 'Height'})"
+1.0,"frozenset({'Weight', 'SpendingScore', 'Height'})"
+1.0,"frozenset({'Age', 'SpendingScore', 'Income', 'Height'})"
+1.0,"frozenset({'Age', 'SpendingScore', 'Income', 'Weight'})"
+1.0,"frozenset({'Age', 'Weight', 'Income', 'Height'})"
+1.0,"frozenset({'Age', 'Weight', 'SpendingScore', 'Height'})"
+1.0,"frozenset({'Weight', 'SpendingScore', 'Income', 'Height'})"
+1.0,"frozenset({'Income', 'Weight', 'Height', 'Age', 'SpendingScore'})"

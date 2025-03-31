@@ -1,0 +1,181 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,representativity,leverage,conviction,zhangs_metric,jaccard,certainty,kulczynski
+frozenset({'Age'}),frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore'})",frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Income'})",frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'SpendingScore'})",frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),"frozenset({'Income', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),"frozenset({'Age', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),"frozenset({'Age', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Income'})",frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Height'})",frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'Height'})",frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),"frozenset({'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),"frozenset({'Age', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),"frozenset({'Age', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight'})",frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Income'})",frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Income'})",frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),"frozenset({'Weight', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),"frozenset({'Age', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),"frozenset({'Age', 'Weight'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore'})",frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Height'})",frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'SpendingScore', 'Height'})",frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),"frozenset({'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),"frozenset({'Age', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),"frozenset({'Age', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight'})",frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore'})",frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'SpendingScore'})",frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),"frozenset({'Weight', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),"frozenset({'Age', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),"frozenset({'Age', 'Weight'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight'})",frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Height'})",frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Height'})",frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),"frozenset({'Weight', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),"frozenset({'Age', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),"frozenset({'Age', 'Weight'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'SpendingScore'})",frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'SpendingScore', 'Height'})",frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'Height'})",frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),"frozenset({'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),"frozenset({'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),"frozenset({'Income', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'SpendingScore'})",frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'SpendingScore'})",frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Income'})",frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),"frozenset({'Weight', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),"frozenset({'Weight', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),"frozenset({'Income', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Income'})",frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Height'})",frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'Height'})",frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),"frozenset({'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),"frozenset({'Weight', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),"frozenset({'Weight', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'SpendingScore'})",frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Height'})",frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'SpendingScore', 'Height'})",frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),"frozenset({'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),"frozenset({'Weight', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),"frozenset({'Weight', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore', 'Income'})",frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore', 'Height'})",frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Income', 'Height'})",frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'SpendingScore', 'Height'})",frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore'})","frozenset({'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Income'})","frozenset({'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Height'})","frozenset({'Income', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'SpendingScore'})","frozenset({'Age', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'SpendingScore', 'Height'})","frozenset({'Age', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'Height'})","frozenset({'Age', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),"frozenset({'Income', 'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),"frozenset({'Age', 'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),"frozenset({'Age', 'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),"frozenset({'Age', 'SpendingScore', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore', 'Income'})",frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight', 'SpendingScore'})",frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight', 'Income'})",frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'Weight', 'SpendingScore'})",frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore'})","frozenset({'Weight', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Income'})","frozenset({'Weight', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight'})","frozenset({'Income', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'SpendingScore'})","frozenset({'Age', 'Weight'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'SpendingScore'})","frozenset({'Age', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Income'})","frozenset({'Age', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),"frozenset({'Income', 'Weight', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),"frozenset({'Age', 'Weight', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),"frozenset({'Age', 'Weight', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),"frozenset({'Age', 'SpendingScore', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight', 'Income'})",frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight', 'Height'})",frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Income', 'Height'})",frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Income', 'Height'})",frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight'})","frozenset({'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Income'})","frozenset({'Weight', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Height'})","frozenset({'Weight', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Income'})","frozenset({'Age', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Height'})","frozenset({'Age', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'Height'})","frozenset({'Age', 'Weight'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),"frozenset({'Weight', 'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),"frozenset({'Age', 'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),"frozenset({'Age', 'Weight', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),"frozenset({'Age', 'Weight', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight', 'SpendingScore'})",frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight', 'Height'})",frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore', 'Height'})",frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'SpendingScore', 'Height'})",frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight'})","frozenset({'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore'})","frozenset({'Weight', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Height'})","frozenset({'Weight', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'SpendingScore'})","frozenset({'Age', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Height'})","frozenset({'Age', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'SpendingScore', 'Height'})","frozenset({'Age', 'Weight'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),"frozenset({'Weight', 'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),"frozenset({'Age', 'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),"frozenset({'Age', 'Weight', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),"frozenset({'Age', 'Weight', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'Weight', 'SpendingScore'})",frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'SpendingScore', 'Height'})",frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Income', 'Height'})",frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'SpendingScore', 'Height'})",frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'SpendingScore'})","frozenset({'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Income'})","frozenset({'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Height'})","frozenset({'Income', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'SpendingScore'})","frozenset({'Weight', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'SpendingScore', 'Height'})","frozenset({'Weight', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'Height'})","frozenset({'Weight', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),"frozenset({'Income', 'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),"frozenset({'Weight', 'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),"frozenset({'Weight', 'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),"frozenset({'Income', 'Weight', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight', 'Income', 'Height'})",frozenset({'SpendingScore'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'SpendingScore', 'Weight', 'Income', 'Height'})",frozenset({'Age'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore', 'Weight', 'Income'})",frozenset({'Height'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore', 'Income', 'Height'})",frozenset({'Weight'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight', 'SpendingScore', 'Height'})",frozenset({'Income'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Income', 'Height'})","frozenset({'Age', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight', 'Income'})","frozenset({'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'SpendingScore', 'Weight', 'Income'})","frozenset({'Age', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Income', 'Height'})","frozenset({'Weight', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'SpendingScore', 'Income', 'Height'})","frozenset({'Age', 'Weight'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore', 'Income'})","frozenset({'Weight', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight', 'Height'})","frozenset({'SpendingScore', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'SpendingScore', 'Height'})","frozenset({'Age', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight', 'SpendingScore'})","frozenset({'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore', 'Height'})","frozenset({'Weight', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Income'})","frozenset({'Age', 'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Income', 'Height'})","frozenset({'Age', 'Weight', 'SpendingScore'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Income'})","frozenset({'Weight', 'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'SpendingScore', 'Income'})","frozenset({'Age', 'Weight', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'Height'})","frozenset({'Age', 'SpendingScore', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Weight'})","frozenset({'SpendingScore', 'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weight', 'SpendingScore'})","frozenset({'Age', 'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'Height'})","frozenset({'SpendingScore', 'Weight', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'SpendingScore', 'Height'})","frozenset({'Age', 'Weight', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Age', 'SpendingScore'})","frozenset({'Weight', 'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Income'}),"frozenset({'Age', 'Weight', 'SpendingScore', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weight'}),"frozenset({'Age', 'SpendingScore', 'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Height'}),"frozenset({'Age', 'SpendingScore', 'Weight', 'Income'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Age'}),"frozenset({'SpendingScore', 'Weight', 'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'SpendingScore'}),"frozenset({'Age', 'Weight', 'Income', 'Height'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
